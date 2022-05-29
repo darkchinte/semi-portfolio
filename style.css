@@ -17,6 +17,10 @@ body {
     color: #E5E7EB;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .button {
     background-color: #3882f6;
     border: none;
