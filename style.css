@@ -78,16 +78,19 @@ header ul {
 }
 
 .right-hero {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: contain;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
 
 .right-hero img {
     color: #E5E7EB;
     background-color: #3882f6;
-    border: 5px solid #3882f6 ;
+    height: 320px;
 }
 
 
