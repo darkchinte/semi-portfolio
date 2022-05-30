@@ -187,6 +187,15 @@ header ul {
     height: 40px;
 }
 
+footer {
+    height: 72px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 ul {
     list-style: none;
 }
