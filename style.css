@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@200;400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -38,6 +42,7 @@ body {
     cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .hero-main {
@@ -171,22 +176,14 @@ header ul {
     font-size: 24px;
 }
 
-
-.call-container button {
-    background-color: #3882f6;
-    border: 2px solid #F9FAF8;
-    color: white;
-    padding: 0px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+.call-container a {
+    border: 3px solid #F9FAF8;
+    padding: 15px 25px;
     border-radius: 10px;
-    font-weight: bold;
-    height: 40px;
 }
+
+
+
 
 footer {
     height: 72px;   
