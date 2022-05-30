@@ -21,6 +21,10 @@ body {
     font-weight: bold;
 }
 
+.small-text {
+    font-size: 16px;
+}
+
 .button {
     background-color: #3882f6;
     border: none;
@@ -143,6 +147,44 @@ header ul {
 
 .quote-title {
     text-align-last: end;
+}
+
+.call-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    margin: 0 10%;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px 50px;
+    border-radius: 10px;
+    line-height: 5px;
+    font-size: 24px;
+}
+
+
+.call-container button {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    color: white;
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 40px;
 }
 
 ul {
